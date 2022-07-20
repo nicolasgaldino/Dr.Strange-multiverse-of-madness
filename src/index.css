@@ -1,3 +1,10 @@
+:root {
+  --cor0: #000000;
+  --cor1: #ffffff;
+  --lightLinearGrad: #0000;
+  --boldLinearGrad: #000d;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +15,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-::-webkit-scrollbar {}
-
-::-webkit-scrollbar-track {}
-
-::-webkit-scrollbar-thumb {}
+body {
+  height: 100vh;
+  background: linear-gradient(
+      90deg,
+      var(--cor0),
+      var(--boldLinearGrad) 35%,
+      var(--lightLinearGrad)
+    ),
+    url(./img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
