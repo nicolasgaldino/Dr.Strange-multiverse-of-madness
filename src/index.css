@@ -16,11 +16,14 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
+  padding: 5rem 8rem 3.125rem 8rem;
   background: linear-gradient(
       90deg,
       var(--cor0),
-      var(--boldLinearGrad) 35%,
+      var(--boldLinearGrad) 30%,
       var(--lightLinearGrad)
     ),
     url(./img/background.png);
