@@ -1,3 +1,27 @@
-header {
-  height: 2.25rem;
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ulContent {
+  display: flex;
+  gap: 30px;
+}
+
+.liContent {
+  list-style: none;
+  font-size: 1.25rem;
+  padding: 3px 10px;
+  border-radius: 0.3125rem;
+  text-transform: uppercase;
+}
+
+.liContent a {
+  text-shadow: 0.125rem 0.125rem 0.125rem var(--cor0);
+}
+
+.liContent:hover {
+  background: var(--cor2);
+  transition: all 0.5s ease-in-out;
 }

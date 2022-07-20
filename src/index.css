@@ -1,6 +1,7 @@
 :root {
   --cor0: #000000;
   --cor1: #ffffff;
+  --cor2: #e62721;
   --lightLinearGrad: #0000;
   --boldLinearGrad: #000d;
 }
@@ -10,7 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   cursor: default;
-  font-family: Helvetica, sans-serif;
+  font-family: "Mulish", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,4 +30,10 @@ body {
     url(./img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+a {
+  color: var(--cor1);
+  text-decoration: none;
+  cursor: pointer;
 }
