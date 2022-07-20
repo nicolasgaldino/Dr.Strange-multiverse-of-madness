@@ -11,16 +11,16 @@ export const Navbar = () => {
         <nav>
           <ul className={styles.ulContent}>
             <li className={styles.liContent}>
-              <a href="#" target="_blank">Home</a>
+              <a href="#" target="_blank" rel="noreferrer">Home</a>
             </li>
             <li className={styles.liContent}>
-              <a href="#" target="_blank">Personagens</a>
+              <a href="#" target="_blank" rel="noreferrer">Personagens</a>
             </li>
             <li className={styles.liContent}>
-              <a href="#" target="_blank">Galeria</a>
+              <a href="#" target="_blank" rel="noreferrer">Galeria</a>
             </li>
             <li className={styles.liContent}>
-              <a href="#" target="_blank">Vídeos</a>
+              <a href="#" target="_blank" rel="noreferrer">Vídeos</a>
             </li>
           </ul>
         </nav>

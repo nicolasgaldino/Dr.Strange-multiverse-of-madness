@@ -1,1 +1,56 @@
-main {}
+.mainContainer {
+  display: flex;
+}
+
+.textContent {
+  height: 800px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContent h1 {
+  font-size: 8rem;
+  display: flex;
+  flex-direction: column;
+  color: var(--cor1);
+}
+
+.textContent h1 span {
+  font-size: 2rem;
+  font-weight: 100;
+  transform: translateY(2.1875rem);
+}
+
+.movieDescription {
+  font-size: 3rem;
+  color: var(--cor2);
+  font-style: italic;
+  transform: translateY(-0.3125rem);
+  text-transform: uppercase;
+}
+
+.socialContent {
+  background: lightgreen;
+  width: 3.125rem;
+}
+
+.textContent p {
+  color: var(--cor1);
+  font-size: 1.1875rem;
+  font-weight: 100;
+  width: 600px;
+}
+
+.textContent a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.625rem;
+  margin-top: 3.125rem;
+  width: 18.75rem;
+  height: 5rem;
+  background: var(--cor2);
+  font-size: 1.5rem;
+}
