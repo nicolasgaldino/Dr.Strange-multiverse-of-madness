@@ -32,7 +32,6 @@
 }
 
 .socialContent {
-  background: lightgreen;
   width: 3.125rem;
 }
 
@@ -40,7 +39,7 @@
   color: var(--cor1);
   font-size: 1.1875rem;
   font-weight: 100;
-  width: 600px;
+  width: 37.5rem;
 }
 
 .textContent a {
@@ -53,4 +52,34 @@
   height: 5rem;
   background: var(--cor2);
   font-size: 1.5rem;
+}
+
+.socialContent ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.socialContent li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 3.125rem;
+  width: 3.125rem;
+  border-radius: 50%;
+  border: 0.125rem solid var(--cor1);
+}
+
+.socialContent i {
+  font-size: 1.5rem;
+}
+
+.socialContent li:hover {
+  background-color: var(--cor2);
+  border: var(--cor2);
+  transition: all 0.5s;
 }

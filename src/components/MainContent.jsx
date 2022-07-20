@@ -1,5 +1,4 @@
 import styles from '../styles/MainContent.module.css';
-import {} from 'phosphor-react';
 
 export const MainContent = () => {
   return (
@@ -9,7 +8,7 @@ export const MainContent = () => {
           <h1>
             <span>
               Doctor
-            </span> 
+            </span>
             Strange
           </h1>
           <span className={styles.movieDescription}>
@@ -23,7 +22,28 @@ export const MainContent = () => {
           </a>
         </div>
         <div className={styles.socialContent}>
-          //
+          <ul>
+            <li>
+              <a href="#" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+          </ul>
         </div>
       </main>
     </>
